@@ -1,27 +1,27 @@
 /ros2_laser_scan_merger:
   ros__parameters:
-    flip1: false
-    flip2: false
-    inverse1: true
-    inverse2: true
-    laser1Alpha: 0.0
-    laser1AngleMax: 94.0
-    laser1AngleMin: -4.0
+    flip1: true
+    flip2: true
+    inverse1: false
+    inverse2: false
+    laser1Alpha: -43.0
+    laser1AngleMax: 130.2
+    laser1AngleMin: -131.4
     laser1B: 0
     laser1G: 0
     laser1R: 255
-    laser1XOff: -0.3
-    laser1YOff: -0.475
-    laser1ZOff: 0.176
-    laser2Alpha: 180.0
-    laser2AngleMax: 94.0
-    laser2AngleMin: 0.0
+    laser1XOff: 1.63
+    laser1YOff: -1.0
+    laser1ZOff: 0.0
+    laser2Alpha: 136.5
+    laser2AngleMax: 130.2
+    laser2AngleMin: -131.4
     laser2B: 255
     laser2G: 0
     laser2R: 0
-    laser2XOff: 0.3
-    laser2YOff: 0.475
-    laser2ZOff: 0.176
+    laser2XOff: 1.65
+    laser2YOff: 1.0
+    laser2ZOff: 0.0
     pointCloudTopic: cloud_in
     pointCloutFrameId: base_link
     scanTopic1: /scan_front
@@ -53,7 +53,7 @@
     max_height: 1.0
     min_height: 0.0
     queue_size: 16
-    range_max: 10.0
+    range_max: 20.0
     range_min: 0.35
     scan_time: 0.3333
     target_frame: base_link
