@@ -4,14 +4,14 @@
     flip2: true
     inverse1: false
     inverse2: false
-    laser1Alpha: -43.0
+    laser1Alpha: -43.75
     laser1AngleMax: 130.2
-    laser1AngleMin: -131.4
+    laser1AngleMin: -131.5
     laser1B: 0
     laser1G: 0
     laser1R: 255
-    laser1XOff: 1.63
-    laser1YOff: -1.0
+    laser1XOff: 1.5
+    laser1YOff: -0.875
     laser1ZOff: 0.0
     laser2Alpha: 136.5
     laser2AngleMax: 130.2
@@ -19,11 +19,15 @@
     laser2B: 255
     laser2G: 0
     laser2R: 0
-    laser2XOff: 1.65
+    laser2XOff: -1.65
     laser2YOff: 1.0
     laser2ZOff: 0.0
     pointCloudTopic: cloud_in
     pointCloutFrameId: base_link
+    qos_overrides./parameter_events.publisher.depth: 1000
+    qos_overrides./parameter_events.publisher.durability: volatile
+    qos_overrides./parameter_events.publisher.history: keep_last
+    qos_overrides./parameter_events.publisher.reliability: best_effort
     scanTopic1: /scan_front
     scanTopic2: /scan_back
     show1: true
